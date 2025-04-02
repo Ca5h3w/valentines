@@ -1,100 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>_monicayee x itz_kha0s</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffe6f2;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 600px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .timeline {
-            text-align: left;
-            padding: 10px;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-        .event {
-            background: #ff99c2;
-            padding: 15px;
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        .event img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin-top: 10px;
-        }
-        .event p {
-            margin-top: 10px;
-            font-style: italic;
-            padding: 0 10px;
-        }
-        .love-letter {
-            display: none;
-            margin-top: 20px;
-            background: #ffb3d9;
-            padding: 15px;
-            border-radius: 10px;
-            text-align: left;
-        }
-        button {
-            background: #ff4d94;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 15px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>_monicayee x itz_kha0s</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.timeline {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flipbook {
+    display: flex;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    width: 100%;
+}
+.event {
+    background: #ff99c2;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+    transform: rotateY(90deg);
+}
+.event img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.event p {
+    margin-top: 10px;
+    font-style: italic;
+    padding: 0 10px;
+}
+.love-letter {
+    display: none;
+    margin-top: 20px;
+    background: #ffb3d9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+button {
+    background: #ff4d94;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>_monicayee ❤️ itz_kha0s </h1>
-        <div class="timeline">
+<div class="container">
+    <h1>Our Love Timeline ❤️</h1>
+    <h1>_monicayee ❤️ itz_kha0s</h1>
+    <div class="timeline">
+        <div class="flipbook" id="flipbook">
             <div class="event">
-                <strong>🎉 First Picture Together:</strong> <br>[7/7/2024]
-                <iframe src="https://drive.google.com/file/d/1HPv7BQY8qUXu5CraCUhTN15XT0owyQke/preview"  allow="autoplay"></iframe>
+                <strong>🎉 First Picture Together:</strong><br>[7/7/2024]
+                <iframe src="https://drive.google.com/file/d/1HPv7BQY8qUXu5CraCUhTN15XT0owyQke/preview" allow="autoplay"></iframe>
                 <p>[This image was our first picture together. This is so memorable for it started a chain of memories that I hope won't end.]</p>
             </div>
             <div class="event">
-                <strong>💑 First selfie with u?:</strong> <br>[7/26/2024]
+                <strong>💑 First selfie with u?:</strong><br>[7/26/2024]
                 <iframe src="https://drive.google.com/file/d/1ilLCJR4Try6PWs6dQMz1YxUte2SNC4AX/preview" allow="autoplay"></iframe>
                 <iframe src="https://drive.google.com/file/d/1iYtgH8sv-1_b0xl0vtvn60GaAL6s-XOM/preview" allow="autoplay"></iframe>
                 <p>[This pictures remind me of how shy I was and how I am incapable of taking decent pictures with you.]</p>
             </div>
             <div class="event">
-                <strong>💌 First Date:</strong> <br>[8/2/2024]
+                <strong>💌 First Date:</strong><br>[8/2/2024]
                 <iframe src="https://drive.google.com/file/d/1gwKYDs6sUjxxttOqc7WpAF9QgydM7y5G/preview" allow="autoplay"></iframe>
                 <iframe src="https://drive.google.com/file/d/1glNNf2PPTfQgzEbrLHwOiNCOrazo56WP/preview" allow="autoplay"></iframe>
                 <p>[I was so nervous and excited at the same time. Every moment felt magical, and I couldn't stop smiling.]</p>
             </div>
             <div class="event">
-                <strong>🌟 It's Official!:</strong> <br>[8/16/2024]
+                <strong>🌟 It's Official!:</strong><br>[8/16/2024]
                 <iframe src="https://drive.google.com/file/d/1dKPTRNK5xKx_0GC7SpIcrxdruE0HtET-/preview" allow="autoplay"></iframe>
                 <iframe src="https://drive.google.com/file/d/1e47T8H_lRdlXHRNKIgjuQ54EXFij-vqs/preview" allow="autoplay"></iframe>
                 <p>[This day was the day that I almost cried. Your sudden statement that "it was enough" made me overthink. I thought that you want to end things but it was the opposite. You made a bold move to make it official by taking it to another level of a relationship.]</p>
             </div>
             <div class="event">
-                <strong>🌟 Special Moments:</strong> <br>[10/26/2024]
+                <strong>🌟 Special Moments:</strong><br>[10/26/2024]
                 <iframe src="https://drive.google.com/file/d/188VfSpcGp4H9ZNTkyKErGrZJdbOvF4N3/preview" allow="autoplay"></iframe><br>[11/04/2024]
                 <iframe src="https://drive.google.com/file/d/1BSTwWDRpukqw5cUmPNd1VFhCE4CeUb9I/preview" allow="autoplay"></iframe><br>[12/20/2024]
                 <iframe src="https://drive.google.com/file/d/1PwvSIrhGyohfj5tiChLrk1dT4W3oHIWq/preview" allow="autoplay"></iframe>
@@ -102,27 +121,55 @@
                 <p>[Those undocumented moments, Those images that we chose not to share, are the ones that I cherish.]</p>
             </div>
             <div class="event">
-                <strong>🌟 With our Soleil:</strong> <br>[sol]
+                <strong>🌟 With our Soleil:</strong><br>[sol]
                 <iframe src="https://drive.google.com/file/d/1ujPoxHeCKirM4_gXCVp_biC8HzENvV2J/preview" allow="autoplay"></iframe>
                 <iframe src="https://drive.google.com/file/d/1vE8nlY8ftzo_ovU5j9AWn__LT1HrCX3N/preview" allow="autoplay"></iframe>
                 <iframe src="https://drive.google.com/file/d/1tYZi97uRo0eeVIiPKXcTGMWXB7WlXsYV/preview" allow="autoplay"></iframe>
                 <p>[This special cat has been my companion whenever you are away from me. She gives warmth and comfort when I am alone. She was a gift, just like you. You both are presents that I did not expect to receive, but I am grateful for both of you existed.]</p>
             </div>
         </div>
-        <button onclick="showLoveLetter()">Open My Love Letter 💖</button>
-        <div class="love-letter" id="loveLetter">
-            <h2>HAPPY VALENTINE'S DAY BABY!</h2>
-            <p>To my Safety Pin,</p>
-            <p>A few days from now, it will be our 6th month together. Thank you for staying and for embracing me as I am. Thank you for understanding all my silliness. 💖</p>
-            <p>These past six months have been the most wonderful time of my life. Every moment with you feels like a dream come true. Your love, support, and kindness have made me a better person. I am so grateful to have you by my side, and I look forward to creating many more beautiful memories together.</p>
-            <p>Your Solace</p>
-        </div>
     </div>
-    
-    <script>
-        function showLoveLetter() {
-            document.getElementById("loveLetter").style.display = "block";
-        }
-    </script>
+
+    <div class="navigation-buttons">
+        <button onclick="prevEvent()">Previous</button>
+        <button onclick="nextEvent()">Next</button>
+    </div>
+
+    <button onclick="showLoveLetter()">Open My Love Letter 💖</button>
+    <div class="love-letter" id="loveLetter">
+        <h2>HAPPY VALENTINE'S DAY BABY!</h2>
+        <p>To my Safety Pin,</p>
+        <p>A few days from now, it will be our 6th month together. Thank you for staying and for embracing me as I am. Thank you for understanding all my silliness. 💖</p>
+        <p>These past six months have been the most wonderful time of my life. Every moment with you feels like a dream come true. Your love, support, and kindness have made me a better person. I am so grateful to have you by my side, and I look forward to creating many more beautiful memories together.</p>
+        <p>Your Solace</p>
+    </div>
+</div>
+
+<script>
+let currentEvent = 0;
+
+function prevEvent() {
+    if (currentEvent > 0) {
+        currentEvent--;
+        updateFlipbook();
+    }
+}
+
+function nextEvent() {
+    if (currentEvent < document.querySelectorAll('.event').length - 1) {
+        currentEvent++;
+        updateFlipbook();
+    }
+}
+
+function updateFlipbook() {
+    const flipbook = document.getElementById('flipbook');
+    flipbook.style.transform = `rotateY(-${currentEvent * 180}deg)`;
+}
+
+function showLoveLetter() {
+    document.getElementById("loveLetter").style.display = "block";
+}
+</script>
 </body>
 </html>
